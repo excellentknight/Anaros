@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ANAROS</string>
+    <string-array name="services">
+        <item>Soins du visage</item>
+        <item>Soins corporels</item>
+        <item>Maquillage de jour et du soir</item>
+        <item>Beauté des mains et des pieds</item>
+        <item>Epilations</item>
+        <item>Espace mariées</item>
+    </string-array>
+    <string name="link"><u>https://algotechdz.com</u></string>
+    <string name="email_content">Hey there! Take a look at the app ANAROS developed by AlgoTechDz.\n\nHere is the link to the app:\n\n </string>
+    <string name="title_activity_services_list">Nos services</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">RDV</string>
+    <string name="title_activity_client_rdv">RDV</string>
+    <string name="title_activity_admin_login">Admin login</string>
+    <string name="title_activity_admin_main">Admin</string>
+    <string name="title_activity_admin_rdvactivity">Admin</string>
+    <string name="title_activity_admin_services_list">Admin</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_salon">Notre salon</string>
+    <string name="title_activity_dev">Dev</string>
+    <string name="title_activity_web">Web</string>
+    <string name="title_activity_contact">Contact Us</string>
+    <string name="title_activity_email">Email</string>
+    <string name="title_activity_share_ex">Share</string>
+    <string name="title_activity_service1_commande">RDV Soin du visage</string>
+    <string name="title_activity_services_card">ANAROS</string>
+    <string name="title_activity_client_rdvm2">ClientRDVm2Activity</string>
+</resources>

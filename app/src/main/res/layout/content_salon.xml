@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.faresimtiez.algotech.anaros.SalonActivity"
+    tools:showIn="@layout/app_bar_salon">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.faresimtiez.deeplife.anaros.ClientService1Activity">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fcfde1"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        android:layout_margin="5dp"
+                        android:text="ANAROS"/>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ViewFlipper
+                        android:id="@+id/ViewFlipper"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" >
+
+                        <LinearLayout
+                            android:id="@+id/s1day1"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:text="L’institut Anaros, vous propose sa gamme de soins pour le visage, le corps, la beauté des mains et de pieds et son espace maquillage et coiffure mariée. "
+                                android:textSize="20dp"
+                                android:textColor="#000"/>
+
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="300dp"
+                                android:layout_height="300dp"
+                                app:srcCompat="@drawable/t9" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/s1day2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:text="A travers ses produits de qualité l’institut Anaros, se donne pour vocation de rendre votre soin inoubliable"
+                                android:textSize="20dp"
+                                android:textColor="#000"/>
+
+                            <ImageView
+                                android:id="@+id/imageView4"
+                                android:layout_width="300dp"
+                                android:layout_height="300dp"
+                                app:srcCompat="@drawable/t1" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/s1day3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:text="Vous souhaitez un soin personnalisé ! Nous vous proposons des diagnostics beauté personnalisés gratuits, afin de connaître les particularités de votre peau et par conséquent les produits et types de soins qui lui sont adaptés."
+                                android:textSize="20dp"
+                                android:textColor="#000"/>
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="300dp"
+                                android:layout_height="300dp"
+                                app:srcCompat="@drawable/t2" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/s1day4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Text 3"
+                                android:textSize="20dp"
+                                android:textColor="#000"/>
+
+                            <ImageView
+                                android:id="@+id/imageView51"
+                                android:layout_width="300dp"
+                                android:layout_height="300dp"
+                                app:srcCompat="@drawable/t3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/s1day5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Text 3"
+                                android:textSize="20dp"
+                                android:textColor="#000"/>
+
+                            <ImageView
+                                android:id="@+id/imageView55"
+                                android:layout_width="300dp"
+                                android:layout_height="300dp"
+                                app:srcCompat="@drawable/t4" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/s1day6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Text 3"
+                                android:textSize="20dp"
+                                android:textColor="#000"/>
+
+                            <ImageView
+                                android:id="@+id/imageView56"
+                                android:layout_width="300dp"
+                                android:layout_height="300dp"
+                                app:srcCompat="@drawable/t5" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/s1day7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Text 3"
+                                android:textSize="20dp"
+                                android:textColor="#000"/>
+
+                            <ImageView
+                                android:id="@+id/imageView57"
+                                android:layout_width="300dp"
+                                android:layout_height="300dp"
+                                app:srcCompat="@drawable/t6" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/s1day8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Text 3"
+                                android:textSize="20dp"
+                                android:textColor="#000"/>
+
+                            <ImageView
+                                android:id="@+id/imageView58"
+                                android:layout_width="300dp"
+                                android:layout_height="300dp"
+                                app:srcCompat="@drawable/t7" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/s1day9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Text 3"
+                                android:textSize="20dp"
+                                android:textColor="#000"/>
+
+                            <ImageView
+                                android:id="@+id/imageView59"
+                                android:layout_width="300dp"
+                                android:layout_height="300dp"
+                                app:srcCompat="@drawable/t8" />
+
+                        </LinearLayout>
+
+                    </ViewFlipper>
+
+                    <RelativeLayout
+                        android:layout_margin="20dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Previous"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentStart="true"
+                            android:textColor="#fcfde1"
+                            android:background="@color/colorPrimary"
+                            android:id="@+id/btn_previous_day"/>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="next"
+                            android:textColor="#fcfde1"
+                            android:background="@color/colorPrimary"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:id="@+id/btn_next_day"/>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "137775060109",
+    "firebase_url": "https://anaros-4d9c1.firebaseio.com",
+    "project_id": "anaros-4d9c1",
+    "storage_bucket": "anaros-4d9c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137775060109:android:5510b51867297a90",
+        "android_client_info": {
+          "package_name": "com.faresimtiez.algotech.anaros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137775060109-thb0vhnidegcpq0ab39vdepodh4hfk7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3F4-8_yVOTpI4dR8qQLmS1uGJpdQEnL0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
